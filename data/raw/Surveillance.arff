@@ -1,0 +1,26 @@
+@relation Surveillance
+
+@attribute A01 {+,-}
+@attribute A02 {+,-}
+@attribute A03 {+,-}
+@attribute A04 {+,-}
+@attribute A05 {+,-}
+@attribute A06 {-,+}
+@attribute A07 {-,+}
+@attribute Categories {PUS,PIM,PWS}
+
+@data
++,+,+,+,+,-,-,PUS
++,+,-,+,+,-,-,PUS
++,+,+,+,-,+,-,PUS
++,+,-,+,-,+,-,PUS
++,-,-,-,-,-,+,PUS
++,+,+,-,-,-,+,PUS
++,+,-,-,-,-,+,PUS
++,+,+,+,-,-,-,PUS
++,-,-,+,+,-,-,PIM
+-,+,-,+,+,-,-,PIM
++,-,-,+,-,+,-,PIM
+-,+,-,+,-,+,-,PIM
+-,+,-,-,-,-,+,PIM
+-,-,-,-,-,-,+,PWS
